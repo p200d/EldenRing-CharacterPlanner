@@ -1,0 +1,218 @@
+{
+    "Black Knife": {
+        "standard": false,
+        "weight": 2.0,
+        "requirements": {"Strength": 8, "Dexterity": 12, "Faith": 18},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 161}, "scaling": {"Strength": "E", "Dexterity": "B", "Faith": "C"}}
+        }
+    },
+    "Dagger": {
+        "standard": true,
+        "weight": 1.5,
+        "requirements": {"Strength": 5, "Dexterity": 9},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 181}, "scaling": {"Strength": "D", "Dexterity": "B"}},
+            "Heavy": {"damage": {"physical": 166}, "scaling": {"Strength": "A"}},
+            "Keen": {"damage": {"physical": 156}, "scaling": {"Strength": "D", "Dexterity": "A"}},
+            "Quality": {"damage": {"physical": 145}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 120, "fire": 120}, "scaling": {"Strength": "B", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 120, "lightning": 120}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Magic": {"damage": {"physical": 138, "magic": 138}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "B"}}
+        }
+    },
+    "Wazikashi": {
+        "standard": true,
+        "weight": 3.0,
+        "requirements": {"Strength": 9, "Dexterity": 13},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 230}, "scaling": {"Strength": "D", "Dexterity": "C"}},
+            "Heavy": {"damage": {"physical": 211}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 211}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality": {"damage": {"physical": 184}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 153, "fire": 153}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 153, "lightning": 153}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 175, "magic": 175}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "B"}}
+        }
+    },
+    "Crystal Sword": {
+        "standard": false,
+        "weight": 4.5,
+        "requirements": {"Strength": 13, "Dexterity": 10, "Intelligence": 15},
+        "enhancement": {
+            "Standard": { "damage": {"physical": 259, "magic": "166"}, "scaling": {"Strength": "C", "Dexterity": "D", "Intelligence": "D"}}
+        }
+    },
+    "Golden Epitaph": {
+        "standard": false,
+        "weight": 3.5,
+        "requirements": {"Strength": 12, "Dexterity": 10, "Faith": 14},
+        "enhancement": {
+            "Standard": { "damage": {"physical": 208, "holy": 208}, "scaling": {"Strength": "D", "Dexterity": "B"}}
+        }
+    },
+    "Longsword": {
+        "standard": true,
+        "weight": 3.5,
+        "requirements": {"Strength": 10, "Dexterity": 10},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 269}, "scaling": {"Strength": "C", "Dexterity": "D"}},
+            "Heavy": {"damage": {"physical": 246}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 246}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality": {"damage": {"physical": 215}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 178, "fire": 153}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 178, "lightning": 178}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 204, "magic": 204}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "B"}}
+        }
+    },
+    "Claymore": {
+        "standard": true,
+        "weight": 9.0,
+        "requirements": {"Strength": 16, "Dexterity": 13},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 338}, "scaling": {"Strength": "C", "Dexterity": "D"}},
+            "Heavy": {"damage": {"physical": 312}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 312}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality": {"damage": {"physical": 272}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 226, "fire": 226}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 226, "lightning": 226}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 259, "magic": 259}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "C"}}
+        }
+    },
+    "Gargoyle's Blackblade": {
+        "standard": false,
+        "weight": 11.5,
+        "requirements": {"Strength": 18, "Dexterity": 10, "Faith": 22},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 249, "holy": 298}, "scaling": {"Strength": "C", "Dexterity": "C", "Faith": "D"}}
+        }
+    },
+    "Lordsworn's Greatsword": {
+        "standard": true,
+        "weight": 9.0,
+        "requirements": {"Strength": 16, "Dexterity": 10},
+        "enhancement": {
+            "Standard": { "damage": {"physical": 333}, "scaling": {"Strength": "C", "Dexterity": "D"}},
+            "Heavy":  {"damage": {"physical": 307}, "scaling": {"Strength": "B"}},
+            "Keen":  {"damage": {"physical": 307}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality":  {"damage": {"physical": 268}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire":  {"damage": {"physical": 222, "fire": 222}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning":  {"damage": {"physical": 222, "lightning": 222}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic":  {"damage": {"physical": 255, "magic": 255}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "C"}}
+        }
+    },
+    "Cleanrot Knight's Sword": {
+        "standard": true,
+        "weight": 4.0,
+        "requirements": {"Strength": 11, "Dexterity": 13},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 267}, "scaling": {"Strength": "C", "Dexterity": "D"}},
+            "Heavy": {"damage": {"physical": 244}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 244}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality": {"damage": {"physical": 213}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 176, "fire": 176}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 176, "lightning": 176}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 255, "magic": 255}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "C"}}
+        }
+    },
+    "Estoc": {
+        "standard": true,
+        "weight": 4.5,
+        "requirements": {"Strength": 11, "Dexterity": 13},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 262}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Heavy": {"damage": {"physical": 239}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 224}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality": {"damage": {"physical": 209}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 173, "fire": 173}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 173, "lightning": 147}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 198, "magic": 198}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "C"}}
+        }
+    },
+    "Rapier": {
+        "standard": true,
+        "weight": 2.5,
+        "requirements": {"Strength": 7, "Dexterity": 12},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 235}, "scaling": {"Strength": "D", "Dexterity": "B"}},
+            "Heavy": {"damage": {"physical": 216}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 202}, "scaling": {"Strength": "E", "Dexterity": "A"}},
+            "Quality": {"damage": {"physical": 188}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 156, "fire": 156}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 156, "lightning": 156}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 255, "magic": 255}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "B"}}
+        }
+    },
+    "Scimitar": {
+        "standard": true,
+        "weight": 3.0,
+        "requirements": {"Strength": 7, "Dexterity": 13},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 259}, "scaling": {"Strength": "D", "Dexterity": "C"}},
+            "Heavy": {"damage": {"physical": 237}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 222}, "scaling": {"Strength": "E", "Dexterity": "A"}},
+            "Quality": {"damage": {"physical": 207}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 171, "fire": 171}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 171, "lightning": 171}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 196, "magic": 196}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "B"}}
+        }
+    },
+    "Shotel": {
+        "standard": true,
+        "weight": 2.0,
+        "requirements": {"Strength": 9, "Dexterity": 19},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 235}, "scaling": {"Strength": "D", "Dexterity": "C"}},
+            "Heavy": {"damage": {"physical": 216}, "scaling": {"Strength": "B"}},
+            "Keen": {"damage": {"physical": 202}, "scaling": {"Strength": "E", "Dexterity": "A"}},
+            "Quality": {"damage": {"physical": 188}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 156, "fire": 156}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 156, "lightning": 156}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 179, "magic": 179}, "scaling": {"Strength": "E", "Dexterity": "E", "Intelligence": "C"}}
+        }
+    },
+    "Magma Blade": {
+        "standard": false,
+        "weight": 4.0,
+        "requirements": {"Strength": 9, "Dexterity": 15, "Faith": 16},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 235}, "scaling": {"Strength": "C", "Dexterity": "D", "Faith": "C"}}
+        }
+    },
+    "Fallingstar Beast Jaw": {
+        "standard": false,
+        "weight": 21.5,
+        "requirements": {"Strength": 34, "Dexterity": 12, "Intelligence": 20},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 320, "magic": 208}, "scaling": {"Strength": "C", "Dexterity": "C", "Intelligence": "D"}}
+        }
+    },
+    "Great Club": {
+        "standard": true,
+        "weight": 17.0,
+        "requirements": {"Strength": 35},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 377}, "scaling": {"Strength": "D"}},
+            "Heavy": {"damage": {"physical": 327}, "scaling": {"Strength": "A"}},
+            "Keen": {"damage": {"physical": 350}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality": {"damage": {"physical": 305}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 253, "fire": 253}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 253, "lightning": 253}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 290, "magic": 290}, "scaling": {"Strength": "D", "Intelligence": "C"}}
+        }
+    },
+    "Prelate's Inferno Crozier": {
+        "standard": true,
+        "weight": 23.5,
+        "requirements": {"Strength": 45, "Dexterity": 8},
+        "enhancement": {
+            "Standard": {"damage": {"physical": 382}, "scaling": {"Strength": "B", "Dexterity": "E"}},
+            "Heavy": {"damage": {"physical": 332}, "scaling": {"Strength": "A"}},
+            "Keen": {"damage": {"physical": 354}, "scaling": {"Strength": "E", "Dexterity": "B"}},
+            "Quality": {"damage": {"physical": 309}, "scaling": {"Strength": "B", "Dexterity": "B"}},
+            "Fire": {"damage": {"physical": 256, "fire": 256}, "scaling": {"Strength": "C", "Dexterity": "E"}},
+            "Lightning": {"damage": {"physical": 256, "lightning": 256}, "scaling": {"Strength": "E", "Dexterity": "C"}},
+            "Magic": {"damage": {"physical": 294, "magic": 294}, "scaling": {"Strength": "D", "Dexterity": "E", "Intelligence": "B"}}
+        }
+    }
+}

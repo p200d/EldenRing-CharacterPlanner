@@ -1,0 +1,30 @@
+{
+    "Helm": {
+        "All-Knowing Helm": {"weight": 4.6},
+        "Blue Cloth Cowl": {"weight": 2.7},
+        "Bull-Goat Helm": {"weight": 11.3},
+        "Chain Coif": {"weight": 3.8},
+        "Confessor Hood": {"weight": 3.3}
+    },
+    "Chest": {
+        "All-Knowing Armor": {"weight": 10.6},
+        "Blue Cloth Vest": {"weight": 7.7},
+        "Bull-Goat Armor": {"weight": 26.5},
+        "Chain Armor": {"weight": 8.8},
+        "Confessor Armor": {"weight": 8.3}
+    },
+    "Gauntlets": {
+        "All-Knowing Gauntlets": {"weight": 3.5},
+        "Bull-Goat Gauntlets": {"weight": 8.8},
+        "Confessor Gloves": {"weight": 2.8},
+        "Gauntlets": {"weight": 2.9},
+        "Warrior Gauntlets": {"weight": 2.6}
+    },
+    "Legs": {
+        "All-Knowing Greaves": {"weight": 6.6},
+        "Bull-Goat Greaves": {"weight": 16.4},
+        "Chain Leggings": {"weight": 5.5},
+        "Confessor Boots": {"weight": 4.8},
+        "Warrior Greaves": {"weight": 4.8}
+    }
+}

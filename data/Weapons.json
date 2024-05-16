@@ -1,0 +1,228 @@
+{
+	"Weapon": [
+        {
+            "value": "Black Knife",
+            "standard": false,
+            "weight": 2.0,
+            "requirements": {"strength": 8, "dexterity": 12, "faith": 18},
+            "enhancement": [{"type": "Standard", "damage": {"physical": 161}, "scaling": {"strength": "E", "dexterity": "B", "faith": "C"}}]
+        },
+        {
+            "value": "Dagger",
+            "standard": true,
+            "weight": 1.5,
+            "requirements": {"strength": 5, "dexterity": 9},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 181}, "scaling": {"strength": "D", "dexterity": "B"}},
+                {"type": "Heavy", "damage": {"physical": 166}, "scaling": {"strength": "A"}},
+                {"type": "Keen", "damage": {"physical": 156}, "scaling": {"strength": "D", "dexterity": "A"}},
+                {"type": "Quality", "damage": {"physical": 145}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 120, "fire": 120}, "scaling": {"strength": "B", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 120, "lightning": 120}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Magic", "damage": {"physical": 138, "magic": 138}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "B"}}
+            ]
+        },
+        {
+            "value": "Wazikashi",
+            "standard": true,
+            "weight": 3.0,
+            "requirements": {"strength": 9, "dexterity": 13},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 230}, "scaling": {"strength": "D", "dexterity": "C"}},
+                {"type": "Heavy", "damage": {"physical": 211}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 211}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 184}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 153, "fire": 153}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 153, "lightning": 153}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 175, "magic": 175}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "B"}}
+            ]
+        },
+        {
+            "value": "Crystal Sword",
+            "standard": false,
+            "weight": 4.5,
+            "requirements": {"strength": 13, "dexterity": 10, "intellect": 15},
+            "enhancement": [{"type": "Standard", "damage": {"physical": 259, "magic": "166"}, "scaling": {"strength": "C", "dexterity": "D", "intellect": "D"}}]
+        },
+        {
+            "value": "Golden Epitaph",
+            "standard": false,
+            "weight": 3.5,
+            "requirements": {"strength": 12, "dexterity": 10, "faith": 14},
+            "enhancement": [{"type": "Standard", "damage": {"physical": 208, "holy": 208}, "scaling": {"strength": "D", "dexterity": "B"}}]
+        },
+        {
+            "value": "Longsword",
+            "standard": true,
+            "weight": 3.5,
+            "requirements": {"strength": 10, "dexterity": 10},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 269}, "scaling": {"strength": "C", "dexterity": "D"}},
+                {"type": "Heavy", "damage": {"physical": 246}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 246}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 215}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 178, "fire": 153}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 178, "lightning": 178}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 204, "magic": 204}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "B"}}
+            ]
+        },
+        {
+            "value": "Claymore",
+            "standard": true,
+            "weight": 9.0,
+            "requirements": {"strength": 16, "dexterity": 13},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 338}, "scaling": {"strength": "C", "dexterity": "D"}},
+                {"type": "Heavy", "damage": {"physical": 312}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 312}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 272}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 226, "fire": 226}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 226, "lightning": 226}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 259, "magic": 259}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "C"}}
+            ]
+        },
+        {
+            "value": "Gargoyle's Blackblade",
+            "standard": false,
+            "weight": 11.5,
+            "requirements": {"strength": 18, "dexterity": 10, "faith": 22},
+            "enhancement": [{"type": "Standard", "damage": {"physical": 249, "holy": 298}, "scaling": {"strength": "C", "dexterity": "C", "faith": "D"}}]
+        },
+        {
+            "value": "Lordsworn's Greatsword",
+            "standard": true,
+            "weight": 9.0,
+            "requirements": {"strength": 16, "dexterity": 10},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 333}, "scaling": {"strength": "C", "dexterity": "D"}},
+                {"type": "Heavy", "damage": {"physical": 307}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 307}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 268}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 222, "fire": 222}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 222, "lightning": 222}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 255, "magic": 255}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "C"}}
+            ]
+        },
+        {
+            "value": "Cleanrot Knight's Sword",
+            "standard": true,
+            "weight": 4.0,
+            "requirements": {"strength": 11, "dexterity": 13},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 267}, "scaling": {"strength": "C", "dexterity": "D"}},
+                {"type": "Heavy", "damage": {"physical": 244}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 244}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 213}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 176, "fire": 176}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 176, "lightning": 176}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 255, "magic": 255}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "C"}}
+            ]
+        },
+        {
+            "value": "Estoc",
+            "standard": true,
+            "weight": 4.5,
+            "requirements": {"strength": 11, "dexterity": 13},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 262}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Heavy", "damage": {"physical": 239}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 224}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 209}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 173, "fire": 173}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 173, "lightning": 147}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 198, "magic": 198}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "C"}}
+            ]
+        },
+        {
+            "value": "Rapier",
+            "standard": true,
+            "weight": 2.5,
+            "requirements": {"strength": 7, "dexterity": 12},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 235}, "scaling": {"strength": "D", "dexterity": "B"}},
+                {"type": "Heavy", "damage": {"physical": 216}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 202}, "scaling": {"strength": "E", "dexterity": "A"}},
+                {"type": "Quality", "damage": {"physical": 188}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 156, "fire": 156}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 156, "lightning": 156}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 255, "magic": 255}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "B"}}
+            ]
+        },
+        {
+            "value": "Scimitar",
+            "standard": true,
+            "weight": 3.0,
+            "requirements": {"strength": 7, "dexterity": 13},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 259}, "scaling": {"strength": "D", "dexterity": "C"}},
+                {"type": "Heavy", "damage": {"physical": 237}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 222}, "scaling": {"strength": "E", "dexterity": "A"}},
+                {"type": "Quality", "damage": {"physical": 207}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 171, "fire": 171}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 171, "lightning": 171}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 196, "magic": 196}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "B"}}
+            ]
+        },
+        {
+            "value": "Shotel",
+            "standard": true,
+            "weight": 2.0,
+            "requirements": {"strength": 9, "dexterity": 19},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 235}, "scaling": {"strength": "D", "dexterity": "C"}},
+                {"type": "Heavy", "damage": {"physical": 216}, "scaling": {"strength": "B"}},
+                {"type": "Keen", "damage": {"physical": 202}, "scaling": {"strength": "E", "dexterity": "A"}},
+                {"type": "Quality", "damage": {"physical": 188}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 156, "fire": 156}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 156, "lightning": 156}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 179, "magic": 179}, "scaling": {"strength": "E", "dexterity": "E", "intellect": "C"}}
+            ]
+        },
+        {
+            "value": "Magma Blade",
+            "standard": false,
+            "weight": 4.0,
+            "requirements": {"strength": 9, "dexterity": 15, "faith": 16},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 235}, "scaling": {"strength": "C", "dexterity": "D", "faith": "C"}}
+            ]
+        },
+        {
+            "value": "Fallingstar Beast Jaw",
+            "standard": false,
+            "weight": 21.5,
+            "requirements": {"strength": 34, "dexterity": 12, "intellect": 20},
+            "enhancement": [{"type": "Standard", "damage": {"physical": 320, "magic": 208}, "scaling": {"strength": "C", "dexterity": "C", "intellect": "D"}}]
+        },
+        {
+            "value": "Great Club",
+            "standard": true,
+            "weight": 17.0,
+            "requirements": {"strength": 35},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 377}, "scaling": {"strength": "D"}},
+                {"type": "Heavy", "damage": {"physical": 327}, "scaling": {"strength": "A"}},
+                {"type": "Keen", "damage": {"physical": 350}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 305}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 253, "fire": 253}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 253, "lightning": 253}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 290, "magic": 290}, "scaling": {"strength": "D", "intellect": "C"}}
+            ]
+        },
+        {
+            "value": "Prelate's Inferno Crozier",
+            "standard": true,
+            "weight": 23.5,
+            "requirements": {"strength": 45, "dexterity": 8},
+            "enhancement": [
+                {"type": "Standard", "damage": {"physical": 382}, "scaling": {"strength": "B", "dexterity": "E"}},
+                {"type": "Heavy", "damage": {"physical": 332}, "scaling": {"strength": "A"}},
+                {"type": "Keen", "damage": {"physical": 354}, "scaling": {"strength": "E", "dexterity": "B"}},
+                {"type": "Quality", "damage": {"physical": 309}, "scaling": {"strength": "B", "dexterity": "B"}},
+                {"type": "Fire", "damage": {"physical": 256, "fire": 256}, "scaling": {"strength": "C", "dexterity": "E"}},
+                {"type": "Lightning", "damage": {"physical": 256, "lightning": 256}, "scaling": {"strength": "E", "dexterity": "C"}},
+                {"type": "Magic", "damage": {"physical": 294, "magic": 294}, "scaling": {"strength": "D", "dexterity": "E", "intellect": "B"}}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Talisman": {
+        "Assassin's Cerulean Dagger": {"description": "Critical hits restore FP."},
+        "Assassin's Crimson Dagger": {"description": "Critical hits restore HP."},
+        "Axe Talisman": {"description": "Enhances charge attacks."},
+        "Blessed Dew Talisman": {"description": "Gradually restores HP."},
+        "Boltdrake Talisman": {"description": "Boosts lightning damage negation."},
+        "Bull-Goat's Talisman": {"description": "Raises poise.", "effects": {}},
+        "Carian Filigreed Crest": {"description": "Lowers FP consumed by skills."},
+        "Cerulean Amber Medallion": {"description": "Boosts maximum FP."},
+        "Cerulean Seed Talisman": {"description": "Boosts FP restoration from the Flask of Cerulean Tears."},
+        "Clarifying Horn Charm": {"description": "Raises focus."},
+        "Claw Talisman": {"description": "Enhances jump attacks."},
+        "Crepus's Vial": {"description": "Eliminates all sound made by the wearer during movement."}
+    }
+}
